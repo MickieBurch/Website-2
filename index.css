@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background-color: #eeeed4;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+  .header-img{
+    background-image: url(../src/images/Croissants.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh; 
+  }
+
+  .header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .Header-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+  }
+
+  .Main-header-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 78px;
+    justify-content: center;
+  }
+
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+
+.header-button{
+  background-color: white;
+  padding: 2vh 5vh;
+  border: none;
+  font-weight: bold;
+}
+
+  .Booking-component{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .img-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+
+  .img{
+    width: 35vh;
+    height: 40vh;
+  }
+  
+  .img1-booking{
+    margin: 20vh 0vh;
+  }
+  .img2-booking{
+    margin: 30vh 0vh;
+
+  }
+
+  .Booking-container{
+    width: 35%;
+    margin-top: 20vh;
+  }
+
+  .booking-button-header{
+    display: flex;
+    justify-content:left;
+    font-size: 35px;
+  }
+
+  .booking-p{
+    width: 45vh;
+  }
+  .booking-button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 2vh 5vh;
+    margin-top: 5vh;
+  }
+
+  .Navigation-pages{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .nav-text{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+
+  .nav-apps{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+  }
