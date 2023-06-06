@@ -1,10 +1,7 @@
 import React from "react";
+import { link } from 'react-router-dom';
 import bread from "../images/Bread.jpg"
 import bread2 from "../images/bread2.jpg"
-import Appetizers from "./Appetizers";
-import Sweets from "./Sweets";
-import Mains from "./Mains";
-
 import AppetizersPic from "../images/Appetizers-.jpg";
 import MainsPic from "../images/Mains.jpg"
 import Desserts from "../images/Desserts.jpg"
@@ -46,7 +43,9 @@ const Navigation = () =>{
             <div className="Booking-container">
             <h1 className="booking-button-header">A French Fling</h1>
             <p className="booking-p">La Lune French Bistro was born from a love of all things Paris. Our founder and chef Ingrid Correa spent three amazing years in the City of Love, training under the industry's best. She brought home everything she learned - the flavors, the feelings, the family-style cafe - so that you can get a taste of Paris, too.</p>
+         <link to = "/BookNow">
             <button className="booking-button">Book Now!</button>
+            </link>
             </div>
         </div>
 
