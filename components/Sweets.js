@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Sweets = () =>{
+export const Sweets = () =>{
     return(
 
     <h1>test</h1>

@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-const BookNow = () =>{
+export const BookNow = () =>{
     return(
 
     <h1>test</h1>

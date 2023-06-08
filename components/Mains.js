@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-const Mains = () =>{
+export const Mains = () =>{
     return(
 
     <h1>test</h1>
