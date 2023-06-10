@@ -6,7 +6,7 @@ export const Sweets = () =>{
 
         <div className="Sweets-container">
         <div className="Sweets-header">
-            <h1> Appataizers</h1>
+            <h1> Sweets</h1>
         </div>
             <div className="Menu-container">
                 <p>option 1</p>

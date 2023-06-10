@@ -84,10 +84,21 @@ export const Navigation = () =>{
 
         <div className="Testiments">
             <div className="testiments-box">
-            <div className="Testiment-text">
-                <p>One bite and I felt like I was back in France. Chef Ingrid and her team have outdone themselves!</p>
-                <p>One bite and I felt like I was back in France. Chef Ingrid and her team have outdone themselves!</p>
-                <p>One bite and I felt like I was back in France. Chef Ingrid and her team have outdone themselves!</p>
+            <div className="testiment-header"> <h1> LOVE FOR LA LUNE</h1></div>
+            <div className="Testiment-textbox">
+                <div className="tetiments-1">
+                <h1 className="Testiment-label"> Transported to Paris</h1>
+                <p className="Testiment-text">One bite and I felt like I was back in France. Chef Ingrid and her team have outdone themselves!</p>
+                </div>
+                <div className="testiments-2">
+                <h1 className="Testiment-label"> Lovely Bistro</h1>
+                <p className="Testiment-text">The ambience was great - and the food even better! Simple recipes done well, with top-notch ingredients. Will be back!</p>
+                </div>
+                <div className="testiments-3">
+                <h1 className="Testiment-label"> Transported to Paris</h1>
+                <p className="Testiment-text">Eating here made me miss Paris so much. What a treat! I will be bringing my client meetings here. </p>
+                </div>
+
             </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #eeeed4;
+  background-color: white ;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -126,15 +126,26 @@ body {
   }
 
   .Testiments{
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: center;
   }
 
-  .Testiment-text{
+  .testiment-header{
     display: flex;
-    width: 25%;
-    margin: 10vh 0vh 10vh 40%
+    justify-content: center;
+  }
+  .Testiment-textbox{
+    display: flex;
+  }
 
+  .Testiment-label{
+    display: flex;
+    justify-content: center;
+  }
+  .Testiment-text{
+    margin: 30%;
   }
 
   .contact-box{
@@ -146,17 +157,13 @@ body {
   .contact-img{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 80%;
     height: 100%;
-    margin: 0vh 0vh 0vh 15vh;
+    
   }
 
   .Contact-details{
     display: flex;
     flex-direction: column;
     padding-right: 25%;
-  }
-
-  .footer{
-    margin-top: 10%;
   }
