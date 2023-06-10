@@ -100,19 +100,63 @@ body {
 
   .Navigation-pages{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
   }
 
   .nav-text{
     display: flex;
     flex-direction: column;
+    margin-left: 5vh;
+    margin-right: 5vh;
     width: 20%;
   }
 
   .nav-apps{
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    margin: 1vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .nav-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .Testiments{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Testiment-text{
+    display: flex;
+    width: 25%;
+    margin: 10vh 0vh 10vh 40%
+
+  }
+
+  .contact-box{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .contact-img{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    margin: 0vh 0vh 0vh 15vh;
+  }
+
+  .Contact-details{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25%;
+  }
+
+  .footer{
+    margin-top: 10%;
   }

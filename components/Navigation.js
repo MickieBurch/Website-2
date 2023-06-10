@@ -4,6 +4,7 @@ import bread2 from "../images/bread2.jpg"
 import AppetizersPic from "../images/Appetizers-.jpg";
 import MainsPic from "../images/Mains.jpg"
 import Desserts from "../images/Desserts.jpg"
+import Bakery from '../images/Bakery.jpg'
 import { Link } from 'react-router-dom';
 
 
@@ -60,15 +61,15 @@ export const Navigation = () =>{
             </div>
 
             <div className="nav-apps">
-            <img src={AppetizersPic}></img>
+            <img className="nav-img" src={AppetizersPic}></img>
             <p>Mouthwatering Appetizers</p>
             </div>
             <div className="nav-apps">
-            <img src={MainsPic}></img>
+            <img className="nav-img"src={MainsPic}></img>
             <p>Wholesome Mains</p>
             </div>
             <div className="nav-apps">
-            <img src={Desserts}></img>
+            <img className="nav-img"  src={Desserts}></img>
             <p>Sweet Endings</p>
             </div>
             
@@ -87,8 +88,8 @@ export const Navigation = () =>{
 
         <div className="Contact">
             <div className="contact-box">
-            <div className="contact-img">
-                <p>image would go on the left</p>
+            <div className="contact-imgbox">
+                <img className="contact-img" src={Bakery}></img>
             </div>
                 <div className="Contact-details">
                 <h1>
@@ -106,6 +107,12 @@ export const Navigation = () =>{
                 </p>
                 </div>
 
+            </div>
+        </div>
+
+        <div className="footer">
+            <div className="footer-space">
+                    
             </div>
         </div>
     </section>
