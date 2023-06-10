@@ -62,15 +62,21 @@ export const Navigation = () =>{
 
             <div className="nav-apps">
             <img className="nav-img" src={AppetizersPic}></img>
+            <Link to="/Appetizers">
             <p>Mouthwatering Appetizers</p>
+            </Link>
             </div>
             <div className="nav-apps">
             <img className="nav-img"src={MainsPic}></img>
+            <Link to="/Mains">
             <p>Wholesome Mains</p>
+            </Link>
             </div>
             <div className="nav-apps">
             <img className="nav-img"  src={Desserts}></img>
+            <Link to="/Sweets">
             <p>Sweet Endings</p>
+            </Link>
             </div>
             
             {/*the P tags will need to be links later on. */}
@@ -112,7 +118,7 @@ export const Navigation = () =>{
 
         <div className="footer">
             <div className="footer-space">
-                    
+
             </div>
         </div>
     </section>
