@@ -167,3 +167,19 @@ body {
     flex-direction: column;
     padding-right: 25%;
   }
+
+  .Menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Menu-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Main-container{
+    font-size: 13px;
+  }
