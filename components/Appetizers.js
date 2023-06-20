@@ -1,13 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom"
-
+import NavBar from "./Nav-bar"
 export const Appetizers = () =>{
     return(
 
     <div className="Menu-container">
-          <Link to="/">
-        <button>HOME</button>
-        </Link>
+      <NavBar />
+        
         <div className="Appatizers-header">
             <h1> Bread & Pastries</h1>
         </div>

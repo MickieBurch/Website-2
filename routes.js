@@ -5,6 +5,7 @@ import Mains from './components/Mains';
 import Sweets from './components/Sweets';
 import Appetizers from './components/Appetizers';
 import BookNow from './components/BookNow';
+import NavBar from './components/Nav-bar';
 
 const Routes = () => {
   return (

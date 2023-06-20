@@ -46,9 +46,9 @@ export const Navigation = () =>{
             <h1 className="booking-button-header">A French Fling</h1>
             <p className="booking-p">La Lune French Bistro was born from a love of all things Paris. Our founder and chef Ingrid Correa spent three amazing years in the City of Love, training under the industry's best. She brought home everything she learned - the flavors, the feelings, the family-style cafe - so that you can get a taste of Paris, too.</p>
          
-            <Link to="/BookNow">
+            <a href="https://minimoments.resos.com/booking" target="_blank" rel="booking link">
                   <button className="booking-button">Book Now</button>
-            </Link>
+            </a>
 
             
             </div>

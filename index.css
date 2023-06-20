@@ -8,6 +8,106 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (max-width: 600px){
+  .Header-title{
+    font-size: 1.5em;
+  }
+  .Main-header-text {
+    font-size: 2.5em;
+  }
+
+  .booking-button-header {
+    font-size: 2em;
+  }
+
+  .img-container {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 80%;
+    height: auto;
+  }
+
+  .Booking-container {
+    width: 90%;
+    margin-top: 10vh;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  .Booking-container {
+    width: 60%;
+    margin-top: 10vh;
+  }
+
+  .booking-button-header {
+    font-size: 2em;
+  }
+
+  .booking-p {
+    width: 90%;
+  }
+
+  .booking-button {
+    padding: 1.5vh 3vh;
+    margin-top: 3vh;
+  }
+
+  .Navigation-pages {
+    flex-wrap: wrap;
+  }
+
+  .nav-text {
+    margin: 1vh 0;
+  }
+
+  .nav-img {
+    width: 30vh;
+    height: 30vh;
+  }
+
+  .Testiment-text {
+    margin: 10vh;
+  }
+
+  .contact-box {
+    flex-direction: column;
+  }
+
+  .contact-img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2vh;
+  }
+
+  .Contact-details {
+    padding-right: 0;
+  }
+}
+
+
+
+@media (min-width: 1025px) {
+  .Navigation-pages {
+    justify-content: space-between;
+  }
+
+  .nav-text {
+    width: 20%;
+  }
+}
+
+/*Navigation bar for the individual pages*/
+.nav-bar{
+  display: flex;
+  color: black;
+  
+  
+}
+
+/*Header img/ header formatting.*/
   .header-img{
     background-image: url(../src/images/Croissants.jpg);
     background-position: center;
@@ -31,14 +131,16 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 5vh;
+    font-size: 2em;
   }
 
   .Main-header-text{
     color: white;
     display: flex;
     flex-direction: column;
-    font-size: 78px;
+    font-size: 4em;
     justify-content: center;
+
   }
 
 .button-container{
@@ -53,6 +155,7 @@ body {
   font-weight: bold;
 }
 
+    /*Booking button/booking page */
   .Booking-component{
     display: flex;
     justify-content: space-evenly;
@@ -84,12 +187,10 @@ body {
   .booking-button-header{
     display: flex;
     justify-content:left;
-    font-size: 35px;
+    font-size: 2.5em;
   }
 
-  .booking-p{
-    width: 45vh;
-  }
+
   .booking-button{
     background-color: black;
     color: white;
@@ -102,52 +203,47 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    
   }
 
   .nav-text{
     display: flex;
     flex-direction: column;
-    margin-left: 5vh;
-    margin-right: 5vh;
-    width: 20%;
-  }
+   }
 
   .nav-apps{
-    width: 30%;
-    margin: 1vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
 
   .nav-img{
-    width: 100%;
-    height: 100%;
+    width: 45vh;
+    height: 40vh;
   }
 
+  /*Testimonial section*/
   .Testiments{
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
+    
+    
   }
 
   .testiment-header{
     display: flex;
     justify-content: center;
   }
-  .Testiment-textbox{
-    display: flex;
-  }
+  
 
   .Testiment-label{
     display: flex;
     justify-content: center;
   }
-  .Testiment-text{
-    margin: 30%;
-  }
 
+
+  /*Contact section*/
   .contact-box{
     display: flex;
     justify-content: space-around;
@@ -157,17 +253,19 @@ body {
   .contact-img{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    height: 100%;
+    width: 50vh;
+    height: 50vh;
     
   }
 
   .Contact-details{
     display: flex;
     flex-direction: column;
-    padding-right: 25%;
+    
+    
   }
 
+  /* Base for individual menu sections*/
   .Menu-container{
     display: flex;
     flex-direction: column;
@@ -183,3 +281,6 @@ body {
   .Main-container{
     font-size: 13px;
   }
+
+
+  /* INDIVIDUAL PAGES*/
