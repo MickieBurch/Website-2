@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MickieBurch/Website-2/static/css/main.2684b145.css",
+    "main.js": "/MickieBurch/Website-2/static/js/main.e0e1dde5.js",
+    "static/media/Bread.jpg": "/MickieBurch/Website-2/static/media/Bread.ba4412a112062bdd79e8.jpg",
+    "static/media/Bakery.jpg": "/MickieBurch/Website-2/static/media/Bakery.a36c3f8c14c975561db2.jpg",
+    "static/media/Appetizers-.jpg": "/MickieBurch/Website-2/static/media/Appetizers-.8d16b5e0a0bee76c5908.jpg",
+    "static/media/Croissants.jpg": "/MickieBurch/Website-2/static/media/Croissants.27410758491257ac984f.jpg",
+    "static/media/Mains.jpg": "/MickieBurch/Website-2/static/media/Mains.41c6482be614f097562e.jpg",
+    "static/media/bread2.jpg": "/MickieBurch/Website-2/static/media/bread2.901a3028ca900ccbfc26.jpg",
+    "static/media/Desserts.jpg": "/MickieBurch/Website-2/static/media/Desserts.e73a034de830cf19d93a.jpg",
+    "index.html": "/MickieBurch/Website-2/index.html",
+    "main.2684b145.css.map": "/MickieBurch/Website-2/static/css/main.2684b145.css.map",
+    "main.e0e1dde5.js.map": "/MickieBurch/Website-2/static/js/main.e0e1dde5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2684b145.css",
+    "static/js/main.e0e1dde5.js"
+  ]
+}
