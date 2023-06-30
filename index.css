@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  background-color: white ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 600px){
+  .Header-title{
+    font-size: 1.5em;
+  }
+  .Main-header-text {
+    font-size: 2.5em;
+  }
+
+  .booking-button-header {
+    font-size: 2em;
+  }
+
+  .img-container {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 80%;
+    height: auto;
+  }
+
+  .Booking-container {
+    width: 90%;
+    margin-top: 10vh;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  .Booking-container {
+    width: 60%;
+    margin-top: 10vh;
+  }
+
+  .booking-button-header {
+    font-size: 2em;
+  }
+
+  .booking-p {
+    width: 90%;
+  }
+
+  .booking-button {
+    padding: 1.5vh 3vh;
+    margin-top: 3vh;
+  }
+
+  .Navigation-pages {
+    flex-wrap: wrap;
+  }
+
+  .nav-text {
+    margin: 1vh 0;
+  }
+
+  .nav-img {
+    width: 30vh;
+    height: 30vh;
+  }
+
+  .Testiment-text {
+    margin: 10vh;
+  }
+
+  .contact-box {
+    flex-direction: column;
+  }
+
+  .contact-img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2vh;
+  }
+
+  .Contact-details {
+    padding-right: 0;
+  }
+}
+
+
+
+@media (min-width: 1025px) {
+  .Navigation-pages {
+    justify-content: space-between;
+  }
+
+  .nav-text {
+    width: 20%;
+  }
+}
+
+/*Navigation bar for the individual pages*/
+.nav-bar{
+  display: flex;
+  color: black;
+  
+  
+}
+
+/*Header img/ header formatting.*/
+  .header-img{
+    background-image: url(../src/images/Croissants.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh; 
+  }
+
+  .header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .Header-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    font-size: 2em;
+  }
+
+  .Main-header-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+    justify-content: center;
+
+  }
+
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+
+.header-button{
+  background-color: white;
+  padding: 2vh 5vh;
+  border: none;
+  font-weight: bold;
+}
+
+    /*Booking button/booking page */
+  .Booking-component{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .img-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+
+  .img{
+    width: 35vh;
+    height: 40vh;
+  }
+  
+  .img1-booking{
+    margin: 20vh 0vh;
+  }
+  .img2-booking{
+    margin: 30vh 0vh;
+
+  }
+
+  .Booking-container{
+    width: 35%;
+    margin-top: 20vh;
+  }
+
+  .booking-button-header{
+    display: flex;
+    justify-content:left;
+    font-size: 2.5em;
+  }
+
+
+  .booking-button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 2vh 5vh;
+    margin-top: 5vh;
+  }
+
+  .Navigation-pages{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+  }
+
+  .nav-text{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0vh 15vh 0vh 15vh;
+   }
+
+  .nav-apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+  
+  }
+
+  .nav-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  /*Testimonial section*/
+  .Testiments{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+  }
+
+  .testiment-header{
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .Testiment-label{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /*Contact section*/
+  .contact-box{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-imgbox{
+    width: 50%;
+  }
+  .contact-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .Contact-details{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+  }
+
+  /* Base for individual menu sections*/
+  .Menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Menu-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Main-container{
+    font-size: 13px;
+  }
+
+
+  /* INDIVIDUAL PAGES*/
